@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.image-logo{
+    height: 20px;
+}
+.navbar-nav{
+    font-size: 7px;
+    font-weight: 600;
+}
+
+.navbar-toggler-icon {
+    font-size: 10px;
+}
+.hover-effect::after{
+    content: "";
+    display: block;
+    background-color: blue;
+    height: 2px;
+    width: 0;
+    transition: 0.3s; 
+}
+.hover-effect:hover::after{
+    width: 100%;
+}
+
+
+@media(max-width:553px){
+    .navbar-coler{
+        background-color: gainsboro;
+        
+    }
+}
+.maza{
+  background: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hello{
+    font-size: 8px;
+}
+.form-size{
+    width: 50px;
+}
+
+.forgot{
+    font-size: 6px;
+}
+.check-me{
+    font-size: 8px;
+}
+.check-me-font{
+    font-size: 6px;
+   
+}
+.placeholder-size::placeholder{
+    font-size: 7px;
+}
+.size-of-butoon{
+    height: 15px;
+    width: 20px;
+
+}
+.last-imge-size{
+   
+    height: 30px;
+}
+.last-meta{
+    font-size: 7px;
+}
+.last-para{
+    font-size: 6px;
+}
+.btn-drop{
+    font-size: 8px;
+    background-color: transparent;
+    margin-bottom: 15px;
+    
+}
+.last-dop-size{
+    font-size: 8px;
+}
+.img-laaast-logo{
+    height: 25px;
+}
